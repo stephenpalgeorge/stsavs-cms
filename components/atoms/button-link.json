@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_atoms_button_links",
+  "info": {
+    "name": "button link",
+    "icon": "hand-point-up"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "style": {
+      "type": "enumeration",
+      "enum": [
+        "fill",
+        "fill_highlight",
+        "outline",
+        "outline_highlight"
+      ]
+    }
+  }
+}

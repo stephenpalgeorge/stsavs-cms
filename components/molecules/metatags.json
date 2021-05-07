@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_molecules_metatags",
+  "info": {
+    "name": "metatags",
+    "icon": "code",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false,
+      "unique": true
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

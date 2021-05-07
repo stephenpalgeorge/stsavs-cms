@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_molecules_social_links",
+  "info": {
+    "name": "social links",
+    "icon": "share-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Icons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.icon-link"
+    },
+    "color_theme": {
+      "type": "enumeration",
+      "enum": [
+        "purple",
+        "red",
+        "dark",
+        "light"
+      ],
+      "default": "dark",
+      "required": true
+    },
+    "title_level": {
+      "type": "enumeration",
+      "enum": [
+        "h1",
+        "h2",
+        "h3"
+      ],
+      "default": "h2",
+      "required": true
+    }
+  }
+}

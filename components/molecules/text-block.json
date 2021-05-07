@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_molecules_text_blocks",
+  "info": {
+    "name": "text block",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "body": {
+      "type": "richtext",
+      "required": true
+    },
+    "actions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.button-link"
+    },
+    "title": {
+      "type": "string"
+    },
+    "title_level": {
+      "type": "enumeration",
+      "enum": [
+        "h1",
+        "h2",
+        "h3"
+      ],
+      "default": "h2"
+    },
+    "color_theme": {
+      "type": "enumeration",
+      "enum": [
+        "purple",
+        "red",
+        "dark",
+        "light"
+      ]
+    },
+    "pre_title": {
+      "type": "string"
+    }
+  }
+}

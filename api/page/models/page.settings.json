@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "name": "page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "metatags": {
+      "type": "component",
+      "repeatable": false,
+      "component": "molecules.metatags",
+      "required": false
+    },
+    "header": {
+      "type": "dynamiczone",
+      "components": [
+        "molecules.social-links"
+      ]
+    },
+    "main": {
+      "type": "dynamiczone",
+      "components": [
+        "molecules.text-block",
+        "molecules.social-links"
+      ]
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}
