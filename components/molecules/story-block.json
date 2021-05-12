@@ -1,0 +1,76 @@
+{
+  "collectionName": "components_molecules_story_blocks",
+  "info": {
+    "name": "story block",
+    "icon": "book-open",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "title_level": {
+      "type": "enumeration",
+      "enum": [
+        "h1",
+        "h2",
+        "h3"
+      ],
+      "required": true,
+      "default": "h2"
+    },
+    "quote_text": {
+      "type": "richtext"
+    },
+    "body": {
+      "type": "richtext",
+      "required": true
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.button-link",
+      "max": 2
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "image_position": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ],
+      "required": true,
+      "default": "left"
+    },
+    "quote_source": {
+      "type": "string"
+    },
+    "filter_position_x": {
+      "type": "integer",
+      "default": 50,
+      "max": 100
+    },
+    "filter_position_y": {
+      "type": "integer",
+      "default": 50,
+      "max": 100
+    },
+    "use_filter": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    }
+  }
+}

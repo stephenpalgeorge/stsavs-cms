@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_molecules_video_blocks",
+  "info": {
+    "name": "Video Block",
+    "icon": "video"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "title_level": {
+      "type": "enumeration",
+      "enum": [
+        "h1",
+        "h2",
+        "h3"
+      ],
+      "required": true,
+      "default": "h2"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "video_id": {
+      "type": "string",
+      "required": true,
+      "maxLength": 11
+    }
+  }
+}

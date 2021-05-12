@@ -28,7 +28,9 @@
       "type": "dynamiczone",
       "components": [
         "molecules.text-block",
-        "molecules.social-links"
+        "molecules.social-links",
+        "molecules.story-block",
+        "molecules.video-block"
       ]
     },
     "Title": {
