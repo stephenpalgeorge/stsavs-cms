@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_organisms_card_blocks",
+  "info": {
+    "name": "card block",
+    "description": "Use this component to render a selection of 'card' components, with an optional title and introduction.",
+    "icon": "columns"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "molecules.card",
+      "max": 6
+    }
+  }
+}

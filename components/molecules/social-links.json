@@ -3,7 +3,7 @@
   "info": {
     "name": "social links",
     "icon": "share-alt",
-    "description": ""
+    "description": "Use this component to create a row of social media icons that link to our different social accounts."
   },
   "options": {},
   "attributes": {

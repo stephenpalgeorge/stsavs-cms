@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_molecules_cards",
+  "info": {
+    "name": "card",
+    "icon": "list-alt",
+    "description": "Use this component to render a 'card' that includes text content and an optional link. Note, cards cannot be used by themselves, but will be nested within other component (like the `card-block`)."
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.button-link"
+    },
+    "color_theme": {
+      "type": "enumeration",
+      "enum": [
+        "purple",
+        "red",
+        "dark",
+        "light"
+      ],
+      "required": true,
+      "default": "purple"
+    }
+  }
+}

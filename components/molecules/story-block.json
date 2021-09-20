@@ -3,7 +3,7 @@
   "info": {
     "name": "story block",
     "icon": "book-open",
-    "description": ""
+    "description": "Use this component to render a section with an image along side some text and a button. This is intended to be used as a 'teaser' to something like a blog post, with a 'Read more' button going to the full article."
   },
   "options": {},
   "attributes": {

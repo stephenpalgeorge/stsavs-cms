@@ -21,7 +21,8 @@
     "header": {
       "type": "dynamiczone",
       "components": [
-        "molecules.social-links"
+        "molecules.social-links",
+        "molecules.gallery-banner"
       ]
     },
     "main": {
@@ -30,7 +31,10 @@
         "molecules.text-block",
         "molecules.social-links",
         "molecules.story-block",
-        "molecules.video-block"
+        "molecules.video-block",
+        "molecules.call-to-action",
+        "molecules.map-block",
+        "organisms.card-block"
       ]
     },
     "Title": {

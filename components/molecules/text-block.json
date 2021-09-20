@@ -3,13 +3,13 @@
   "info": {
     "name": "text block",
     "icon": "align-left",
-    "description": ""
+    "description": "Use this component to render a block of text with an optional title and a collection of buttons. As the text fields are not required, you can also use this component to just render a row of buttons."
   },
   "options": {},
   "attributes": {
     "body": {
       "type": "richtext",
-      "required": true
+      "required": false
     },
     "actions": {
       "type": "component",

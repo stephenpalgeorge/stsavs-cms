@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "banners",
+  "info": {
+    "name": "banner",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cards": {
+      "type": "dynamiczone",
+      "components": [
+        "atoms.image",
+        "atoms.text-square"
+      ]
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

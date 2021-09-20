@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_atoms_text_squares",
+  "info": {
+    "name": "text square",
+    "icon": "align-justify",
+    "description": "Use this component within a Gallery Banner to display a square of text content."
+  },
+  "options": {},
+  "attributes": {
+    "Content": {
+      "type": "string"
+    },
+    "colour": {
+      "type": "enumeration",
+      "enum": [
+        "purple",
+        "red",
+        "dark",
+        "light"
+      ]
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

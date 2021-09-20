@@ -3,7 +3,7 @@
   "info": {
     "name": "dropdown",
     "icon": "angle-down",
-    "description": ""
+    "description": "Use this component to add a link to a menu that toggles a dropdown of further menu items."
   },
   "options": {},
   "attributes": {

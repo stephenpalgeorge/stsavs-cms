@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_molecules_call_to_actions",
+  "info": {
+    "name": "call to action",
+    "icon": "bullhorn",
+    "description": "Use this component to render a highlighted section of text with a button to the side."
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "action": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.button-link"
+    },
+    "color_theme": {
+      "type": "enumeration",
+      "enum": [
+        "purple",
+        "red",
+        "dark",
+        "light"
+      ]
+    }
+  }
+}

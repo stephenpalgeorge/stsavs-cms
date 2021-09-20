@@ -1,13 +1,13 @@
 {
-  "collectionName": "components_atoms_icon_links",
+  "collectionName": "components_atoms_images",
   "info": {
-    "name": "Icon Link",
-    "icon": "external-link-alt",
-    "description": "Use this component to add an icon that links to another url when clicked."
+    "name": "Image Square",
+    "icon": "image",
+    "description": "Use this component to display an image within a Gallery Banner."
   },
   "options": {},
   "attributes": {
-    "icon": {
+    "image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -19,7 +19,7 @@
       "required": false,
       "pluginOptions": {}
     },
-    "url": {
+    "link": {
       "type": "string"
     }
   }

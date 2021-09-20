@@ -3,7 +3,7 @@
   "info": {
     "name": "link",
     "icon": "link",
-    "description": ""
+    "description": "Use this component to add a simple text link to a menu."
   },
   "options": {},
   "attributes": {

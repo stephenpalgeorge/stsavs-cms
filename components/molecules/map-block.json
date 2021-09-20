@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_molecules_map_blocks",
+  "info": {
+    "name": "map block",
+    "description": "Use this component to render a map with a marker at a given location and an optional title and introduction.",
+    "icon": "map-marker-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "latitude": {
+      "type": "float"
+    },
+    "longitude": {
+      "type": "float"
+    },
+    "zoom_level": {
+      "type": "integer"
+    }
+  }
+}

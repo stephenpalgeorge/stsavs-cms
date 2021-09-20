@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_molecules_gallery_banners",
+  "info": {
+    "name": "Gallery Banner",
+    "icon": "images",
+    "description": "Use this component to render a collection of images as banner at the top of a page. Note, the Banner itself must be created as a standalone piece of content."
+  },
+  "options": {},
+  "attributes": {
+    "banner": {
+      "model": "banner"
+    },
+    "color_theme": {
+      "type": "enumeration",
+      "enum": [
+        "purple",
+        "red",
+        "dark",
+        "light"
+      ],
+      "default": "light",
+      "required": true
+    }
+  }
+}

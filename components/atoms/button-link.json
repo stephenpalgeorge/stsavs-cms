@@ -2,7 +2,8 @@
   "collectionName": "components_atoms_button_links",
   "info": {
     "name": "button link",
-    "icon": "hand-point-up"
+    "icon": "hand-point-up",
+    "description": "Use this component to add a button that links to another url when clicked."
   },
   "options": {},
   "attributes": {

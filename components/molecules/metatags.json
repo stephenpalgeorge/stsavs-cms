@@ -3,7 +3,7 @@
   "info": {
     "name": "metatags",
     "icon": "code",
-    "description": ""
+    "description": "Fill in these fields to improve the meta-data associated with the page. None of this information will be visible to the user, but it is important for tools like Google."
   },
   "options": {},
   "attributes": {
