@@ -10,16 +10,6 @@
     "title": {
       "type": "string"
     },
-    "title_level": {
-      "type": "enumeration",
-      "enum": [
-        "h1",
-        "h2",
-        "h3"
-      ],
-      "required": true,
-      "default": "h2"
-    },
     "body": {
       "type": "richtext"
     },

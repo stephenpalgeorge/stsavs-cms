@@ -22,7 +22,8 @@
       "type": "dynamiczone",
       "components": [
         "molecules.social-links",
-        "molecules.gallery-banner"
+        "molecules.gallery-banner",
+        "molecules.hero-banner"
       ]
     },
     "main": {

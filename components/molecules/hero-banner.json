@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_molecules_hero_banners",
+  "info": {
+    "name": "Hero Banner",
+    "icon": "square-full",
+    "description": "Use this component to create a banner that is a single, full-width image, with an optional title."
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "color_theme": {
+      "type": "enumeration",
+      "enum": [
+        "purple",
+        "red",
+        "light",
+        "dark"
+      ],
+      "default": "purple",
+      "required": true
+    },
+    "black_white": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "focal_point_x": {
+      "type": "integer",
+      "required": true,
+      "default": 50
+    },
+    "focal_point_y": {
+      "type": "integer",
+      "required": true,
+      "default": 50
+    }
+  }
+}
