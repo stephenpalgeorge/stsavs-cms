@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_banners_text_clip_banners",
+  "info": {
+    "name": "text clip banner",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.button-link"
+    }
+  }
+}

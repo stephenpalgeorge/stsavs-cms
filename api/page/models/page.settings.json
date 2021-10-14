@@ -22,8 +22,10 @@
       "type": "dynamiczone",
       "components": [
         "molecules.social-links",
-        "molecules.gallery-banner",
-        "molecules.hero-banner"
+        "banners.gallery-banner",
+        "banners.hero-banner",
+        "banners.frame-banner",
+        "banners.text-clip-banner"
       ]
     },
     "main": {
@@ -32,10 +34,11 @@
         "molecules.text-block",
         "molecules.social-links",
         "molecules.story-block",
-        "molecules.video-block",
+        "media.video-block",
         "molecules.call-to-action",
         "molecules.map-block",
-        "organisms.card-block"
+        "organisms.card-block",
+        "media.image-row"
       ]
     },
     "Title": {

@@ -26,6 +26,9 @@
         "dark",
         "light"
       ]
+    },
+    "anchor_id": {
+      "type": "string"
     }
   }
 }

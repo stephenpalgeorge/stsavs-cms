@@ -18,6 +18,9 @@
       "repeatable": true,
       "component": "molecules.card",
       "max": 6
+    },
+    "anchor_id": {
+      "type": "string"
     }
   }
 }

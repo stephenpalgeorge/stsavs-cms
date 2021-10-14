@@ -21,6 +21,9 @@
     },
     "zoom_level": {
       "type": "integer"
+    },
+    "anchor_id": {
+      "type": "string"
     }
   }
 }

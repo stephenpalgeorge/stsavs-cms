@@ -35,6 +35,9 @@
       ],
       "default": "h2",
       "required": true
+    },
+    "anchor_id": {
+      "type": "string"
     }
   }
 }

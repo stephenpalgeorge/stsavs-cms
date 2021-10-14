@@ -1,5 +1,5 @@
 {
-  "collectionName": "components_molecules_video_blocks",
+  "collectionName": "components_media_video_blocks",
   "info": {
     "name": "Video Block",
     "description": "Use this component to render an embedded video (from YouTube) with an optional title and introduction.",
@@ -17,6 +17,9 @@
       "type": "string",
       "required": true,
       "maxLength": 11
+    },
+    "anchor_id": {
+      "type": "string"
     }
   }
 }
