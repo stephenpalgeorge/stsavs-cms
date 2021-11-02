@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_media_photo_galleries",
+  "info": {
+    "name": "photo gallery",
+    "icon": "photo-video",
+    "description": "Use this component to display a collection of images."
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "anchor_id": {
+      "type": "string"
+    }
+  }
+}

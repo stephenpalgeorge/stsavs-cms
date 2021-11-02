@@ -38,7 +38,8 @@
         "molecules.call-to-action",
         "molecules.map-block",
         "organisms.card-block",
-        "media.image-row"
+        "media.image-row",
+        "media.photo-gallery"
       ]
     },
     "Title": {

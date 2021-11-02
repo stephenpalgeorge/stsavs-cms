@@ -38,6 +38,11 @@
     },
     "anchor_id": {
       "type": "string"
+    },
+    "sticky": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }
